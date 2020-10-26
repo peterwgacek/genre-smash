@@ -3,7 +3,7 @@
 Genre Smash is an app that returns a randomized movie based on the genre the user enters into the search fucntion. I was inspired to make this app as I think a randomized search by genre on my individual Netflix queue would be a nice feature to have. 
 
 ## Getting Started
- [Click Here](https://peterwgacek.github.io/project-one/) to see the deployed app. Simply type in what movie genre you want to search for and press the 'SMASH!' button. 
+ [Click Here](https://github.com/peterwgacek/genre-smash//) to see the deployed app. Simply type in what movie genre you want to search for and press the 'SMASH!' button. 
 
 ## Screenshots
 ![screenshot1](./imgs/)
@@ -35,6 +35,7 @@ Genre Smash is an app that returns a randomized movie based on the genre the use
 
 
 ## Stretch Goals/Future Goals:
-- add a coursel selector interface for the genre selection
-- be able to randomzie from a user's queue or watch list
+- add a carousel slider to select the genre instead of searching it
+- be able to randomize from a user's queue or watch list
 - add a modal for the return selection
+

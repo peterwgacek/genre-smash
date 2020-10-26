@@ -1,10 +1,12 @@
-Boilerplate CSS
+
 
 :root{
     --primary-green:#9BC063;
     --secondary-green: #455D3C;
     --primary-purple: #5A4862;
     --primary-black: #000001;
+    --netflix-font:  'Netflix'; 
+    --hulk-font: Hulkbuster;
 }
 
 *{
@@ -29,7 +31,7 @@ header, footer{
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,6 +51,10 @@ header, footer{
 main{
     flex-grow: 1;
 
+}
+
+p {
+    font-family: var(--hulk-font);
 }
 
 .flex-ctr {
