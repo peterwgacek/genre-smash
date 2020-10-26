@@ -1,9 +1,14 @@
-# Genre Smash
+# Genre Smash!
 
-Genre Smash is an app that returns a randomized movie based on the genre the user enters into the search fucntion.
+Genre Smash is an app that returns a randomized movie based on the genre the user enters into the search fucntion. I was inspired to make this app as I think a randomized search by genre on my individual Netflix queue would be a nice feature to have. 
 
 ## Getting Started
- [Click Here](https://peterwgacek.github.io/project-one/) to see the deployed app.
+ [Click Here](https://peterwgacek.github.io/project-one/) to see the deployed app. Simply type in what movie genre you want to search for and press the 'SMASH!' button. 
+
+## Screenshots
+![screenshot1](./imgs/)
+![screenshot2](./imgs/)
+![screenshot3](./imgs/)
 
 ##  Technologies/API used:
 
@@ -11,13 +16,14 @@ Genre Smash is an app that returns a randomized movie based on the genre the use
 - CSS3
 - JavaScript
 - jQuery
-- Google Fonts
-- Procreate - wireframe
-- Font Awesome
+- fontmeme.com
+- Procreate - wireframe and logo
+- Font Awesome - Hulkbuster font, Netflix font
 - The Movie Database API
 
 
 ## Features:
+
 
 ## Wireframe: 
 ![wireframe](./imgs/genresmashwireframe.png)
