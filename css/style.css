@@ -74,7 +74,9 @@ header {
     width: 400px;
     height: 400px;
     align-items: flex-start;
-    justify-content: space-around;
+    font-size: 15px;
+    border: 10px solid var(--primary-black);
+
 }
 
 .searchAndSmash {
