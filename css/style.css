@@ -1,12 +1,14 @@
 
+@import url('https://www.ffonts.net/Hulkbusters.font');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root{
     --primary-green:#9BC063;
     --secondary-green: #455D3C;
     --primary-purple: #5A4862;
     --primary-black: #000001;
-    --netflix-font:  'Netflix'; 
-    --hulk-font: Hulkbuster;
+    --netflix-font:  'Bebas Neue'; 
+    --hulk-font: 'Hulkbusters';
 }
 
 *{
@@ -14,43 +16,70 @@
     margin: 0;
 }
 
+#search {
+    background-color: var(--primary-purple);
+    color: var(--primary-green);
+    font-stretch: expanded;
+
+}
+
+#submit {
+    background-color: var(--primary-purple);
+    color: var(--primary-black);
+    border-radius: 20px;
+    border: 2px solid #9BC063;
+}
+
+main {
+    background-color: var(--primary-purple);
+    height: 600px;
+}
+
 body {
     font-family: Helvetica;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: var(--hulk-font);
+}
+
+ main > h1 {
+    color: var(--primary-green);
+    background-color: var(--secondary-green);
+    font-size: 100px;
+    text-align: center;
 }
 
 header, footer{
     display: flex;
     align-items: center;
-    color: var(--third-color);
+    color: var(--primary-green);
     width: 100%;
     height: 65px;
-    background-color: var(--primary-brand-color);
+    background-color: var(--secondary-green);
 }
 
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
+header {
+    height: 150px;
+}
 
-main{
-    flex-grow: 1;
+#logo {
+    width: 200px;
+}
+.movieInfo {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-green);
+    color: var(--primary-black);
+    width: 400px;
+    height: 400px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
 
+.searchAndSmash {
+    background-color: var(--primary-green);
+    height: 100px;
 }
 
 p {
