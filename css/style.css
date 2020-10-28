@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
-    --primary-green: #9BC063;
-    --secondary-green: #455D3C;
+    --primary-green: #8FC153;
+    --secondary-green: #70964B;
+    --third-green: #1F3220;
     --primary-purple: #5A4862;
     --primary-black: #000001;
     --netflix-font: 'Bebas Neue';
@@ -16,7 +17,6 @@
 }
 
 form {
-    
     display: flex;
     background-color: var(--secondary-green);
     height: 30px;
@@ -29,7 +29,7 @@ input {
     background-color: var(--primary-purple);
     color: var(--primary-green);
     font-stretch: expanded;
-    border: 2px solid #9BC063;
+    border: 2px solid #8FC153;
     text-align: center;
     border-radius: 30px;
     width: 400px;
@@ -44,15 +44,20 @@ button {
     color: var(--primary-green);
     font-family: var(--hulk-font);
     border-radius: 30px;
-    border: 2px solid #9BC063;
+    border: 2px solid #8FC153;
     text-transform: uppercase;
     height: 30px;
 }
 
 
 main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--primary-purple);
     height: 500px;
+    flex-grow: 1;
+
 }
 
 body {
@@ -60,6 +65,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: var(--hulk-font);
+    
 }
 
 header>h1 {
@@ -69,7 +75,6 @@ header>h1 {
     text-align: center;
     justify-content: center;
     text-decoration: none;
-
 }
 
 section > p {
@@ -78,6 +83,7 @@ section > p {
 
 header, footer {
     display: flex;
+    box-sizing: border-box;
     align-items: center;
     color: var(--primary-green);
     width: 100%;
@@ -88,7 +94,7 @@ header, footer {
 header {
     height: 150px;
     justify-content: center;
-   
+    text-shadow: 3px 3px 3px var(--primary-purple);
 }
 
 #logo {
@@ -97,22 +103,22 @@ header {
 
 .movieInfo {
     box-sizing: border-box;
-    border: 10px solid var(--primary-black);
+    border: 10px solid var(--primary-purple);
     display: flex;
     flex-direction: column;
-    background-color: var(--primary-green);
-    color: var(--primary-black);
+    background-color: var(--secondary-green);
+    color: var(--primary-green);
     width: 400px;
     height: 400px;
     align-items: flex-start;
     font-size: 15px;
-    border: 10px solid var(--primary-black);
-
+    box-shadow:  1px 1px 20px 1px var(--third-green);
 }
 
 
 p {
     font-family: var(--hulk-font);
+    color: var(--primary-purple);
 }
 
 .movieInfo>h3,
@@ -123,18 +129,17 @@ h1 {
 footer {
 
     display: flex;
-    text-align: right;
     justify-content: flex-end;
-
+    align-items: flex;
 }
 
 #gen {
     font-family: var(--netflix-font);
 }
 
-
+/* 
 .flex-ctr {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
