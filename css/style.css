@@ -24,7 +24,7 @@ form {
 }
 
 
-input {
+option {
     display: flex;
     background-color: var(--primary-purple);
     color: var(--primary-green);
