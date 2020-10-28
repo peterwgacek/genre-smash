@@ -1,33 +1,51 @@
-
 @import url('https://www.ffonts.net/Hulkbusters.font');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-:root{
-    --primary-green:#9BC063;
+:root {
+    --primary-green: #9BC063;
     --secondary-green: #455D3C;
     --primary-purple: #5A4862;
     --primary-black: #000001;
-    --netflix-font:  'Bebas Neue'; 
+    --netflix-font: 'Bebas Neue';
     --hulk-font: 'Hulkbusters';
 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
 
-#search {
+form {
+    display: flex;
+    background-color: var(--secondary-green);
+    height: 30px;
+    justify-content: center;
+}
+
+
+input {
+    display: flex;
     background-color: var(--primary-purple);
     color: var(--primary-green);
     font-stretch: expanded;
+    border: 2px solid #9BC063;
+    text-align: center;
+    border-radius: 30px;
+    width: 400px;
+    height: 30px;
+    text-decoration: uppercase;
 }
 
-#submit {
+button {
     background-color: var(--primary-purple);
-    color: var(--primary-black);
-    border-radius: 20px;
+    color: var(--primary-green);
+    font-family: var(--hulk-font);
+    border-radius: 30px;
     border: 2px solid #9BC063;
+    text-transform: uppercase;
+    height: 30px;
 }
+
 
 main {
     background-color: var(--primary-purple);
@@ -35,28 +53,30 @@ main {
 }
 
 body {
-    font-family: Helvetica;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     font-family: var(--hulk-font);
 }
 
- main > h1 {
+header>h1 {
     color: var(--primary-green);
     background-color: var(--secondary-green);
     font-size: 100px;
     text-align: center;
+    justify-content: center;
     text-decoration: none;
 
 }
 
-section > p
-{
+
+section > p {
     font-family: var(--netflix-font);
 }
 
-header, footer{
+header,
+
+footer {
     display: flex;
     align-items: center;
     color: var(--primary-green);
@@ -67,11 +87,13 @@ header, footer{
 
 header {
     height: 150px;
+    justify-content: center;
 }
 
 #logo {
     width: 200px;
 }
+
 .movieInfo {
     display: flex;
     flex-direction: column;
@@ -85,22 +107,25 @@ header {
 
 }
 
-.searchAndSmash {
-    background-color: var(--primary-green);
-    height: 20px;
-}
 
 p {
     font-family: var(--hulk-font);
 }
 
-.movieInfo > h3, h1 {
+.movieInfo>h3,
+h1 {
     text-decoration: underline;
 }
 
 footer {
     display: flex;
+    text-align: right;
+    justify-content: flex-end;
 
+}
+
+#gen {
+    font-family: var(--netflix-font);
 }
 
 
