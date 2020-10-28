@@ -16,6 +16,7 @@
 }
 
 form {
+    
     display: flex;
     background-color: var(--secondary-green);
     height: 30px;
@@ -34,6 +35,8 @@ input {
     width: 400px;
     height: 30px;
     text-decoration: uppercase;
+    font-family: var(--netflix-font);
+    
 }
 
 button {
@@ -49,7 +52,7 @@ button {
 
 main {
     background-color: var(--primary-purple);
-    height: 600px;
+    height: 500px;
 }
 
 body {
@@ -69,14 +72,11 @@ header>h1 {
 
 }
 
-
 section > p {
     font-family: var(--netflix-font);
 }
 
-header,
-
-footer {
+header, footer {
     display: flex;
     align-items: center;
     color: var(--primary-green);
@@ -88,6 +88,7 @@ footer {
 header {
     height: 150px;
     justify-content: center;
+   
 }
 
 #logo {
@@ -95,6 +96,8 @@ header {
 }
 
 .movieInfo {
+    box-sizing: border-box;
+    border: 10px solid var(--primary-black);
     display: flex;
     flex-direction: column;
     background-color: var(--primary-green);
@@ -118,6 +121,7 @@ h1 {
 }
 
 footer {
+
     display: flex;
     text-align: right;
     justify-content: flex-end;

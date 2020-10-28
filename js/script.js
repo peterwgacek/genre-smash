@@ -7,7 +7,7 @@ function handleGetData(event){
   //Load in the value of the search textbox
   const searchText = $("#search").val()
                 $.ajax({
-                    url: `https://api.themoviedb.org/3/search/movie?api_key=9813870ae074d390419314b3cbc61171&query=${searchText}`
+                    url: `https://api.themoviedb.org/3/movie/425001-the-war-with-grandpa?api_key=9813870ae074d390419314b3cbc61171&language=en-US`
                     
                 })
                 .then(
@@ -20,7 +20,7 @@ function handleGetData(event){
                         $("#overview").text(data.overview);
                         $("#user-rating").text(data.vote_average);
                         // $("#poster").attr("src",  data.poster_path)
-                        
+                            
                     },
                     (error) => {
                         console.log("bad request: ", error)
