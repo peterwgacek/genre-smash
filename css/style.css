@@ -98,7 +98,10 @@ header {
 
 
 #logo {
-    width: 200px;
+        display: block;
+        width: 200px;
+        height: 150px;
+        border-style: none;
 }
 
 section > p {
@@ -108,7 +111,6 @@ section > p {
 .movieInfo {
     box-sizing: border-box;
     border: 10px solid var(--primary-purple);
- 
     display: flex;
     flex-direction: column;
     background-color: var(--secondary-green);
@@ -131,7 +133,7 @@ p {
     color: var(--primary-purple);
 }
 
-#poster {
+img {
     display: block;
     border: 1px solid var(--primary-purple);
     border-radius: 4px;
