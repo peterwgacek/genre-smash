@@ -328,6 +328,11 @@ footer {
             max-width: 100%;
         }
 
+        header {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
         .movieInfo {
             display: none;
        }
@@ -337,6 +342,7 @@ footer {
 
 #gen {
     max-width: 200px;
+    display: none;
 }
         h1 {
            display: none;
