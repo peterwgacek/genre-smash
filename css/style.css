@@ -314,6 +314,16 @@ footer {
     @media only screen and (max-width: 600px) {
         /* For mobile optimization */
 
+        :root {
+            --primary-green: #8FC153;
+            --secondary-green: #70964B;
+            --third-green: #1F3220;
+            --primary-purple: #5A4862;
+            --primary-black: #000001;
+            --netflix-font: 'Bebas Neue';
+            --hulk-font: 'Hulkbusters';
+        }
+
         header, footer {
             max-width: 100%;
         }
@@ -322,11 +332,14 @@ footer {
             display: none;
        }
 #logo {
+    max-width: 150px;
+}
+
+#gen {
     max-width: 200px;
 }
         h1 {
            display: none;
-            
         }
     main{
             max-width: 100%;
