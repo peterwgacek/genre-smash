@@ -25,7 +25,6 @@ $.ajax({
 
 function handleGetData(event) {
     event.preventDefault()
-
     //Load in the value of the search textbox
     const searchText = $('#genre').val()
     console.log(searchText)
