@@ -321,7 +321,9 @@ footer {
         .movieInfo {
             display: none;
        }
-
+#logo {
+    max-width: 200px;
+}
         h1 {
            display: none;
             
