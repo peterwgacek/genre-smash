@@ -77,10 +77,6 @@ header>h1 {
     text-decoration: none;
 }
 
-section > p {
-    font-family: var(--netflix-font);
-}
-
 header, footer {
     display: flex;
     box-sizing: border-box;
@@ -96,14 +92,23 @@ header {
     justify-content: center;
     text-shadow: 3px 3px 3px var(--primary-purple);
 }
+#gen {
+    font-family: var(--netflix-font);
+}
+
 
 #logo {
     width: 200px;
 }
 
+section > p {
+    font-family: var(--netflix-font);
+}
+
 .movieInfo {
     box-sizing: border-box;
     border: 10px solid var(--primary-purple);
+ 
     display: flex;
     flex-direction: column;
     background-color: var(--secondary-green);
@@ -115,31 +120,29 @@ header {
     box-shadow:  1px 1px 20px 1px var(--third-green);
 }
 
+.movieInfo>h3,
+h1 {
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px var(--primary-purple);
+}
 
 p {
     font-family: var(--hulk-font);
     color: var(--primary-purple);
 }
 
-.movieInfo>h3,
-h1 {
-    text-decoration: underline;
+#poster {
+    display: block;
+    border: 1px solid var(--primary-purple);
+    border-radius: 4px;
+    padding: 5px;
+    width: 350px;
+    height: 400px;
 }
 
 footer {
-
     display: flex;
     justify-content: flex-end;
     align-items: flex;
 }
 
-#gen {
-    font-family: var(--netflix-font);
-}
-
-/* 
-.flex-ctr {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
