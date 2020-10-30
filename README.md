@@ -1,6 +1,6 @@
 # Genre Smash!
 
-Genre Smash is an app that returns a randomized movie based on the genre the user enters into the search fucntion. I was inspired to make this app as I think a randomized search by genre on my individual Netflix queue would be a nice feature to have. 
+Genre Smash is an app that returns a randomized movie based on the genre the user selects from the drop down. I was inspired to make this app as I think a randomized search by genre on my individual Netflix queue would be a nice feature to have. 
 
 ## Getting Started
  [Click Here](https://genre-smash.vercel.app/) to see the deployed app. Simply select the movie genre you want to search for and press the 'SMASH!' button. 
