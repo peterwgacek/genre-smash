@@ -24,6 +24,7 @@ Genre Smash is an app that returns a randomized movie based on the genre the use
 
 ## Wireframe: 
 ![wireframe](./imgs/genresmashwireframe.png)
+![stylemockup](./imgs/stylemockup.png)
 
 ## User Stories:
 - As a user I should be able to enter in a genre and get back a random movie to help me figure out what movie I want to watch
