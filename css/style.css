@@ -161,14 +161,13 @@ footer {
     color: var(--primary-green);
     background-color: var(--secondary-green);
     text-shadow: 3px 3px 3px var(--primary-purple);
-    margin-right: 10px;
+    margin-right: 30px;
     font-size: 30px;
 }
 
 
-
+/* For mobile optimization */
 @media only screen and (max-width: 600px) {
-    /* For mobile optimization */
 
     header,
     footer {
@@ -180,7 +179,14 @@ footer {
     }
 
     .movieInfo {
-        flex-direction: row;
+        height: 35px;
+        width: 350px;
+        align-items: center;
+        background-color: var(--primary-purple);
+    }
+
+    section.movieinfo {
+        background-color: var(--primary-purple);
     }
 
     #overview,
@@ -192,8 +198,14 @@ footer {
     #title {
         font: var(--hulk-font);
         color: var(--primary-green);
-        font-size: 30px;
+        font-size: 15px;
+        background-color:
+            border: none;
         text-shadow: 3px 3px 3px var(--primary-purple);
+    }
+
+    #gen {
+        margin-right: 40px;
     }
 
 
@@ -207,11 +219,8 @@ footer {
     }
 
     main {
+        display: flex;
+        flex-direction: column;
         max-width: 100%;
         background-color: rgb(52, 1, 52);
     }
-
-    body {
-        max-width: 100%;
-    }
-}
