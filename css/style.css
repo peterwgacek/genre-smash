@@ -175,8 +175,25 @@ footer {
         max-width: 100%;
     }
 
-    .movieInfo>p {
+    .movieInfo>h3 {
         display: none;
+    }
+
+    .movieInfo {
+        flex-direction: row;
+    }
+
+    #overview,
+    #year,
+    #user-rating {
+        display: none;
+    }
+
+    #title {
+        font: var(--hulk-font);
+        color: var(--primary-green);
+        font-size: 30px;
+        text-shadow: 3px 3px 3px var(--primary-purple);
     }
 
 
