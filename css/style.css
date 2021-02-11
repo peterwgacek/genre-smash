@@ -1,6 +1,7 @@
 @import url('https://www.ffonts.net/Hulkbusters.font');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+
 :root {
     --primary-green: #8FC153;
     --secondary-green: #70964B;
@@ -132,11 +133,13 @@ section>p {
 .movieInfo>h3,
 h1 {
     text-decoration: underline;
+    font-size: 30px;
     text-shadow: 3px 3px 3px var(--primary-purple);
 }
 
 p {
     font-family: var(--hulk-font);
+    font-size: 20px;
     color: var(--primary-purple);
 }
 
@@ -152,33 +155,45 @@ img {
 footer {
     display: flex;
     justify-content: flex-end;
-    align-items: flex;
 }
 
-    @media only screen and (max-width: 600px) {
-        /* For mobile optimization */
-
-        header, footer {
-            max-width: 100%;
-        }
-
-        .movieInfo {
-            display: none;
-       }
-#logo {
-    max-width: 150px;
+#links {
+    color: var(--primary-green);
+    background-color: var(--secondary-green);
+    text-shadow: 3px 3px 3px var(--primary-purple);
+    margin-right: 10px;
+    font-size: 30px;
 }
 
-        h1 {
-           display: none;
-           padding: 0px;
-        }
 
-    main{
-            max-width: 100%;
-            background-color: rgb(52, 1, 52);
-        }
-        body {
-            max-width: 100%;
-        }
-      }
+
+@media only screen and (max-width: 600px) {
+    /* For mobile optimization */
+
+    header,
+    footer {
+        max-width: 100%;
+    }
+
+    .movieInfo {
+        display: none;
+    }
+
+    #logo {
+        max-width: 150px;
+    }
+
+    h1 {
+        display: none;
+        padding: 0px;
+    }
+
+    main {
+        max-width: 100%;
+        background-color: rgb(52, 1, 52);
+    }
+
+    body {
+        max-width: 100%;
+    }
+}
