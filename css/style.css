@@ -1,5 +1,5 @@
-@import url('https://www.ffonts.net/Hulkbusters.font');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://www.ffonts.net/Hulkbusters.font");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 
 :root {
@@ -8,7 +8,7 @@
     --third-green: #1F3220;
     --primary-purple: #5A4862;
     --primary-black: #000001;
-    --netflix-font: 'Bebas Neue';
+    --netflix-font: "Bebas Neue";
     --hulk-font: 'Hulkbusters';
 }
 
@@ -175,9 +175,10 @@ footer {
         max-width: 100%;
     }
 
-    .movieInfo {
+    .movieInfo>p {
         display: none;
     }
+
 
     #logo {
         max-width: 150px;
