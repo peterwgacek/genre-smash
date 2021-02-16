@@ -1,7 +1,6 @@
 @import url("https://www.ffonts.net/Hulkbusters.font");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-
 :root {
     --primary-green: #8FC153;
     --secondary-green: #70964B;
@@ -73,6 +72,7 @@ body {
 
 }
 
+/**********Header***********/
 header>h1 {
     color: var(--primary-green);
     background-color: var(--secondary-green);
@@ -104,13 +104,14 @@ header {
     font-family: var(--netflix-font);
 }
 
-
 #logo {
     display: block;
     width: 200px;
     height: 150px;
     border-style: none;
 }
+
+/**********Main***********/
 
 section>p {
     font-family: var(--netflix-font);
@@ -139,7 +140,7 @@ h1 {
 
 p {
     font-family: var(--hulk-font);
-    font-size: 20px;
+    font-size: 17px;
     color: var(--primary-purple);
 }
 
@@ -151,6 +152,8 @@ img {
     width: 350px;
     height: 400px;
 }
+
+/**********Footer***********/
 
 footer {
     display: flex;
@@ -166,7 +169,7 @@ footer {
 }
 
 
-/* For mobile optimization */
+/**********Mobile Optimization***********/
 @media only screen and (max-width: 600px) {
 
     header,
