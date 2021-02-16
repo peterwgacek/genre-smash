@@ -33,8 +33,6 @@ Genre Smash is an app that returns a randomized movie based on the genre the use
 
 
 ## Stretch Goals/Future Goals:
-- add social media links w/ icons in the footer
-- add a carousel slider to select the genre instead
-- be able to randomize from a user's queue or watch list
-- add a modal for the return selection
+- Be able to randomize from a user's Netflix queue
+
 
