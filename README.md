@@ -34,5 +34,6 @@ Genre Smash is an app that returns a randomized movie based on the genre the use
 
 ## Stretch Goals/Future Goals:
 - Be able to randomize from a user's Netflix queue
+- Hide API in .env
 
 

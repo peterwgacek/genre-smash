@@ -202,8 +202,8 @@ footer {
         font: var(--hulk-font);
         color: var(--primary-green);
         font-size: 15px;
-        background-color:
-            border: none;
+        background-color: none;
+        border: none;
         text-shadow: 3px 3px 3px var(--primary-purple);
     }
 
@@ -227,3 +227,4 @@ footer {
         max-width: 100%;
         background-color: rgb(52, 1, 52);
     }
+}

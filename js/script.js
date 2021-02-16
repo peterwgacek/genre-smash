@@ -1,17 +1,19 @@
-// Constants and State Variables (Data)
 
 // Constant Data
 const key = '9813870ae074d390419314b3cbc61171'
 const baseUrl = 'https://api.themoviedb.org/3'
 const imgUrl = 'https://image.tmdb.org/t/p/w500'
+require('dotenv').config();
+
+console.log(process.env);
 
 // Attached Event Listeners
 $('form').on("submit", handleGetData)
 
 // Functions
 $.ajax({
-        url: `${baseUrl}/genre/movie/list?api_key=${key}&language=en-US&`
-    })
+    url: `${baseUrl}/genre/movie/list?api_key=${key}&language=en-US&`
+})
     .then(
         (data) => {
             if (Boolean(data) && (data.genres || []).length) {
@@ -27,7 +29,6 @@ function handleGetData(event) {
     event.preventDefault()
     //Load in the value of the search textbox
     const searchText = $('#genre').val()
-    console.log(searchText)
     const q = encodeURI(`?with_genres=${searchText}&api_key=${key}&language=en-US`)
     $.ajax({
         url: `${baseUrl}/discover/movie${q}`
